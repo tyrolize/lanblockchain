@@ -2,7 +2,7 @@ import sys
 import time
 sys.path.insert(0, '..') # Import the files where the modules are located
 
-from p2p_node import MyOwnPeer2PeerNode
+from savedata_node import MyOwnPeer2PeerNode
 
 node = MyOwnPeer2PeerNode("172.17.0.3", 8080, 2)
 
